@@ -1,11 +1,11 @@
-//数据格式说明：8位数据位 无奇偶校验 1位停止位  固定波特率
+//锟斤拷锟捷革拷式说锟斤拷锟斤拷8位锟斤拷锟斤拷位 锟斤拷锟斤拷偶校锟斤拷 1位停止位  锟教讹拷锟斤拷锟斤拷锟斤拷
 #ifndef __HC06_H
 #define __HC06_H
 
 void Init_UART();
 void UartPutchar(unsigned char c);
 void UartPutStr(unsigned char *s);
-void UartPutNum(unsigned long int n);//8位（十进制）
+void UartPutNum(unsigned long int n);//8位锟斤拷十锟斤拷锟狡ｏ拷
 unsigned char UartGetChar();
 void UartGetStr(unsigned char *s,unsigned int cnt);
 

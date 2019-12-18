@@ -9,8 +9,11 @@ The project includes the master computer (msp430) and the slave computer (Our PC
 ## Whats does the project include?
 In the directory src, we have:
 - code_for_msp430
+
 The code for msp430 is to launch the instructions. The instructions are sended to the Our PCB.
 - project_for_PCB
-The source file about the design for Our PCB. 
+
+The source file about the design for our PCB. 
+> More information about our PCB can be seen [here](https://zhuanlan.zhihu.com/p/48099219).
 
 
